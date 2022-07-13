@@ -2,13 +2,18 @@ package Homework;
 
 public class dog  extends Animals{
 
-    public static void bark(){
+    public  void bark(){
         System.out.println("barking");
     }
 
     public static void main(String[] args) {
-        bark();
+        dog vasko = new dog();
+        vasko.bark();
         eat();
-        meow();
+        Cat maq = new Cat();
+        maq.meow();
     }
+
+
+
 }
